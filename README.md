@@ -24,9 +24,9 @@ Regional wait-time comparison
 Time-based trends (monthly / yearly)
 
 🔍 Key Insights (from analysis so far)
-Significant variation in ER wait times across hospitals
-Certain regions consistently experience higher delays
-Peak wait times align with high patient-volume periods
+Significant variation in ER wait times across hospitals,
+Certain regions consistently experience higher delays,
+Peak wait times align with high patient-volume periods,
 Performance gaps suggest staffing and operational inefficiencies
 
 ![1stpage](https://github.com/user-attachments/assets/5252fe51-4806-4369-8609-74d7184668a0)
