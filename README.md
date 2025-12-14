@@ -1,49 +1,62 @@
-Emergency Room Wait Time Analysis using SQL & Power BI
+### Emergency Room Wait Time Analysis using SQL & Power BI
+----------------------------------------------------------------------------------
+### 🔷 Project Overview:
 
-🔷 Project Overview:
 This project analyzes emergency department (ER) patient information of a hospital in Catalonia to identify wait-times, patient demographics, treatment outcomes, and operational efficiency within emergency departments using SQL and Power BI. The goal is to extract actionable insights that can help improve patient flow and healthcare efficiency.
 
 Data- source: https://www.kaggle.com/datasets/xavierberge/hospital-emergency-dataset/data
 
-🎯 Objectives:
-Measure average and extreme ER wait times
-Identify hospitals and regions with the longest delays
-Analyze trends over time
-Create an interactive Power BI dashboard for stakeholders
+###  🎯 Objectives:
 
-🛠 Tools & Technologies:
-SQL – data cleaning, KPI calculations, aggregations
-Power BI – interactive dashboards & visual storytelling
-Healthcare Open Data – emergency department datasets
+Measure average and extreme ER wait times.
+Identify hospitals and regions with the longest delays.
+Analyze trends over time.
+What are the demographics of ER patients (age, gender, race)? What are the busiest days and hours for ER visits? Which departments refer the most patients to the ER?
+Create an interactive Power BI dashboard for stakeholders.
 
-📊 Key KPIs:
-Average ER wait time (minutes)
-% of hospitals exceeding recommended wait thresholds
-Best vs worst performing hospitals
-Regional wait-time comparison
-Time-based trends (monthly / yearly)
+### 🛠 Tools & Technologies:
 
-🔍 Key Insights (from analysis so far)
-Significant variation in ER wait times across hospitals,
-Certain regions consistently experience higher delays,
-Peak wait times align with high patient-volume periods,
-Performance gaps suggest staffing and operational inefficiencies
+SQL – data cleaning, KPI calculations, aggregations.
+Power BI – interactive dashboards & visual storytelling.
+Healthcare Open Data – emergency department datasets.
 
-![1stpage](https://github.com/user-attachments/assets/5252fe51-4806-4369-8609-74d7184668a0)
+### 📊 Key KPIs:
 
-📂 SQL Highlights
-Data normalization & cleaning
-KPI calculations using AVG, CASE, GROUP BY
+Average ER wait time (minutes).
+Regional wait-time comparison.
+Time-based trends (monthly / yearly).
+
+### 🔍 Key Insights (from analysis so far)
+
+9,216 patients visited the ER during the reported period. 35.3 minutes average wait time (consistent across both monthly and consolidated views).
+Not so significant variation in ER wait times across different departments.
+Certain regions consistently experience higher delays.
+Peak wait times align with high patient-volume periods.
+Performance gaps suggest staffing and operational inefficiencies.
+
+###### ![1stpage](https://github.com/user-attachments/assets/5252fe51-4806-4369-8609-74d7184668a0)
+
+### 📂 SQL Highlights
+
+Data normalization & cleaning,
+KPI calculations using AVG, CASE, GROUP BY,
 Hospital-level and regional aggregations
 Performance ranking queries
 (See /sql folder)
 
-🚀 Future Enhancements
-Predictive modeling for wait times
-Staffing vs wait-time correlation
+### Actionable Recommendations:
+
+Increase staffing during peak hours to reduce wait times.
+Improve workflow efficiency to increase the % of patients seen within 30 minutes.
+Investigate patient demographics and referral patterns to optimize hospital resources.
+
+### 🚀 Future Enhancements: 
+
+Predictive modeling for wait times,
+Staffing vs wait-time correlation,
 Advanced insights page (recommendations & policy impact)
 
-👤 Author
+### 👤 Author
 Sachin Acharya
 Computer Science Major and Data Analytics Minor – Texas State University
 Interested in Data Analytics, Healthcare Analytics & Research
