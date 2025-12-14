@@ -1,7 +1,7 @@
 Emergency Room Wait Time Analysis using SQL & Power BI
 
-🔷 Project Overview
-This project analyzes emergency department (ER) wait times across hospitals to identify delays, performance gaps, and operational patterns using SQL and Power BI. The goal is to extract actionable insights that can help improve patient flow and healthcare efficiency.
+🔷 Project Overview:
+This project analyzes emergency department (ER) patient information of a hospital in Catalonia to identify wait-times, patient demographics, treatment outcomes, and operational efficiency within emergency departments using SQL and Power BI. The goal is to extract actionable insights that can help improve patient flow and healthcare efficiency.
 
 Data- source: https://www.kaggle.com/datasets/xavierberge/hospital-emergency-dataset/data
 
